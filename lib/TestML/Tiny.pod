@@ -1,3 +1,5 @@
+=encoding utf8
+
 =head1 Name
 
 TestML::Tiny - Single File Subset of TestML
