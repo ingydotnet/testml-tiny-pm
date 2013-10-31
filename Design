@@ -1,0 +1,14 @@
+=head1 Design Notes
+
+== Files involved
+
+- t/testml_foo.t            - Perl test file
+- t/lib/TestML/Tiny.pm      - TestML::Tiny runtime
+- t/lib/TestBridge.pm       - TestML/Perl bridge class
+- t/testml/foo.tml          - TestML file. No Perl.
+
+- Perl, bridge and TestML text all go in the .t file:
+  - Bridge-class defaults to 'main'
+  - TestML file defaults to DATA
+- Ideally, only data conversion code goes in a bridge class. No Test::More
+  stuff is called directly.
