@@ -1,4 +1,5 @@
 {{$NEXT}}
+- Add Travis-CI integration
 - Support PointMarker and BlockMarker
 - Switch minimum perl to 5.8.1 to match YAML::Tiny
 - Switch to Dist::Zilla for package management
