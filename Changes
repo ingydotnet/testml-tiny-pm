@@ -1,4 +1,9 @@
 {{$NEXT}}
+
+---
+version: 0.000002
+date:    2013-37-03 18:37:06 UTC
+changes:
 - Add Travis-CI integration
 - Support PointMarker and BlockMarker
 - Switch minimum perl to 5.8.1 to match YAML::Tiny
