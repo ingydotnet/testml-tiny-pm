@@ -1,7 +1,7 @@
 use 5.008001; use strict; use warnings;
 package TestML::Tiny;
 
-$TestML::Tiny::VERSION = 0.000001;
+# VERSION
 
 use Carp();
 use Test::More 0.99 ();
@@ -65,7 +65,8 @@ sub _slurp {
 }
 
 #------------------------------------------------------------------------------
-=comment
+=pod comment
+
 ::Runtime -- Run a TestML Function
 
 The TestML Code and Data get compiled into a Function, and the Function is run
@@ -89,7 +90,8 @@ sub run {
 }
 
 #------------------------------------------------------------------------------
-=comment
+=pod comment
+
 ::Compiler -- Turn a TestML document into a runnable TestML Function.
 
 A TestML "document" is comprised of 3 main parts: Meta, Code, Data. This
@@ -312,7 +314,8 @@ sub _parse_testml_points {
 }
 
 #------------------------------------------------------------------------------
-=comment
+=pod comment
+
 A Function is just an array of "executable" statements that are proceseded in
 order. Some of the statements maybe be function declarations and function
 calls. The Compiler produces a top level scope function, with a Data set, and a

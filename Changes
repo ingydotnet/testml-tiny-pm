@@ -1,3 +1,7 @@
+{{$NEXT}}
+- Support PointMarker and BlockMarker
+- Switch minimum perl to 5.8.1 to match YAML::Tiny
+- Switch to Dist::Zilla for package management
 ---
 version: 0.000001
 date:    Wed Oct 30 22:18:54 PDT 2013
