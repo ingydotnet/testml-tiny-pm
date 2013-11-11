@@ -2,7 +2,7 @@
 
 ---
 version: 0.000002
-date:    2013-37-03 18:37:06 UTC
+date:    2013-11-03 18:37:06 UTC
 changes:
 - Add Travis-CI integration
 - Support PointMarker and BlockMarker
