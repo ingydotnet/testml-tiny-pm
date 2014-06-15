@@ -1,7 +1,10 @@
-{{$NEXT}}
-
 ---
-version: 0.000002
+version: 0.0.3
+date:    Sun Jun 15 13:48:01 PDT 2014
+changes:
+- Switch to Zilla-Dist
+---
+version: 0.0.2
 date:    2013-11-03 18:37:06 UTC
 changes:
 - Add Travis-CI integration
@@ -9,7 +12,7 @@ changes:
 - Switch minimum perl to 5.8.1 to match YAML::Tiny
 - Switch to Dist::Zilla for package management
 ---
-version: 0.000001
+version: 0.0.1
 date:    Wed Oct 30 22:18:54 PDT 2013
 changes:
 - First Release

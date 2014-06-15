@@ -1,0 +1,7 @@
+(Class TestML::Tiny
+   )
+
+(runtime = compiler.(compile testml))
+(runtime = (ClassCall compiler compile testml))
+
+

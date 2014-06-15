@@ -1,0 +1,27 @@
+=meta: 0.0.1
+
+name: TestML-Tiny
+version: 0.0.3
+abstract: Single File Subset of TestML
+homepage: http://testml.org
+
+license: perl
+copyright: 2014. Ingy döt Net.
+author:
+  name: Ingy döt Net
+  email: ingy@ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+  homepage: http://ingy.net
+
+requires:
+  perl: 5.8.1
+  XXX: 0
+
+devel:
+  git: git@github.org/ingydotnet/testml-tiny-pm
+  irc: irc.freenode.net/testml
+  bug: https://github.com/ingydotnet/testml-tiny-pm/issues/
+
+=travis: perl
