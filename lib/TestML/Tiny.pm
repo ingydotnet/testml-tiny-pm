@@ -1,11 +1,9 @@
 use 5.008001; use strict; use warnings;
 package TestML::Tiny;
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';
 
 use Carp;
 use Test::More;
-
-# use XXX;
 
 sub import {
     strict->import;
@@ -76,8 +74,6 @@ Test::More::is and Test::More::ok.
 
 package TestML::Tiny::Runtime;
 
-# use XXX;
-
 sub new {
     my $self = $TestML::Tiny::Runtime::Singleton =
         bless { @_[1..$#_] }, $_[0];
@@ -110,8 +106,6 @@ array of Statements and an array of Data Blocks. This function is the run by
 the Runtime object.
 =cut
 package TestML::Tiny::Compiler;
-
-# use XXX;
 
 my $ID = qr/\w+/;
 my $SP = qr/[\ \t]/;

@@ -1,4 +1,9 @@
 ---
+version: 0.0.4
+date:    Mon Jun 16 15:38:15 PDT 2014
+changes:
+- Use manual versioning
+---
 version: 0.0.3
 date:    Sun Jun 15 13:48:01 PDT 2014
 changes:
