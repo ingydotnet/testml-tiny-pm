@@ -17,6 +17,7 @@ author:
 
 requires:
   perl: 5.8.1
+  Test::More: 0.99
   XXX: 0
 
 devel:
@@ -24,4 +25,6 @@ devel:
   irc: irc.freenode.net/testml
   bug: https://github.com/ingydotnet/testml-tiny-pm/issues/
 
-=travis: perl
+=travis:
+  type: perl
+  irc: irc.freenode.net/testml
