@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: TestML-Tiny
-version: 0.0.4
+version: 0.0.5
 abstract: Single File Subset of TestML
 homepage: http://testml.org
 
@@ -21,10 +21,10 @@ requires:
   XXX: 0
 
 devel:
-  git: git@github.org/ingydotnet/testml-tiny-pm
-  irc: irc.freenode.net/testml
-  bug: https://github.com/ingydotnet/testml-tiny-pm/issues/
+  git: https://github.com/ingydotnet/testml-tiny-pm
+  bug: https://github.com/ingydotnet/testml-tiny-pm/issues
+  irc: irc.freenode.net#testml
 
 =travis:
   type: perl
-  irc: irc.freenode.net/testml
+  irc: irc.freenode.net#testml
