@@ -1,6 +1,6 @@
 use 5.008001; use strict; use warnings;
 package TestML::Tiny;
-our $VERSION = '0.0.5';
+our $VERSION = '0.0.6';
 
 use Carp;
 use Test::More;

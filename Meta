@@ -1,12 +1,12 @@
 =meta: 0.0.1
 
 name: TestML-Tiny
-version: 0.0.5
+version: 0.0.6
 abstract: Single File Subset of TestML
 homepage: http://testml.org
 
 license: perl
-copyright: 2014. Ingy döt Net.
+copyright: 2013-2014. Ingy döt Net.
 author:
   name: Ingy döt Net
   email: ingy@ingy.net
