@@ -44,7 +44,7 @@ a descendent of Perl's Test::Base, made to work in any programming language.
 Some projects only need a subset of TestML, and would like it to be in a
 single file that ships with their project. TestML::Tiny aims to be that.
 
-=head1 How TO TestML
+= How To TestML
 
 TestML is really clean and simple in practice, but it involves learning a few
 new concepts. There's TestML code and data sections, bridge classes, and
@@ -64,7 +64,7 @@ This version is being used in YAML::Tiny development.
 
 Ingy döt Net (ingy) <ingy@cpan.org>
 
-=head1 Copyright and License
+= Copyright and License
 
 Copyright 2013-2014 Ingy döt Net
 
