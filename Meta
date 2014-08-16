@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: TestML-Tiny
-version: 0.0.9
+version: 0.0.10
 abstract: Single File Subset of TestML
 homepage: http://testml.org
 language: perl
@@ -10,7 +10,7 @@ copyright: 2013-2014
 
 author:
   name: Ingy döt Net
-  email: ingy@ingy.net
+  email: ingy@cpan.org
   homepage: http://ingy.net
   github: ingydotnet
   twitter: ingydotnet
